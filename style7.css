@@ -1,0 +1,180 @@
+/* Pengaturan body */
+body{
+	background-color	: grey;
+	text-align			: center;
+	font-family			: verdana, Tahoma, helvetica;
+	font-size			: 12px;
+}
+
+/* pengaturan layout utama */
+#layout {
+	background		: #fff;
+	width			: 980px;
+	margin			: auto;
+	text-align		: left;
+	padding			: 2px;
+}
+
+#header{
+	width			: 100%;
+	height			: 130px;
+	background-color: #02a2d8;
+	position		: relative;	
+}
+
+.header{
+	width			: 100%;
+	height			: 130px;
+}
+
+
+/*pengaturan menu */
+#menu{
+	width			: 100%;
+	height			: 40px;
+	background-color: maroon;
+	position		: relative;
+}
+/* pengaturan menu */
+#menu ul {
+	margin			: 0;
+	padding			: 0;
+	list-style		: none;
+}
+#menu ul li {
+	float			: left;
+}
+#menu ul li a {
+	float			: left;
+	color			: white;
+	padding			: 12px 20px;
+	text-decoration	: none;
+	background		: maroon;
+	border-left		: 1px solid #3c4042;
+	border-right	: 1px solid #3c4042; 
+	font-weight		: bold;
+	text-shadow		: 0 -1px 1px rgba(0, 0, 0, 0.6);	
+}
+#menu ul li a:hover {
+	color			:	white;
+	background		: #3C4042;
+}
+
+
+
+/* pengaturan runingtext */
+#runningtext{
+	width			: 100%;
+	height			: 25px;
+	padding-top		: 7px;
+	margin			: 5px 0 5px 0; 
+	background-color: #ccccff;
+	font-weight		: bold;
+	color			: maroon;
+	font-size		: 10pt;
+	position		: relative;
+}
+
+
+#sidebar {
+	padding			: 5px;
+	width			: 27%;
+	background-color: #d3beaa;
+	position		: relative;
+	float			: right;
+	/*memberikan garis putus-purus */
+	border-style	: dotted;
+	border-width	: 0px;
+}
+/*pengaturan widget sidebar*/
+.widget {
+	width			: 99%;
+	margin-bottom	: 5px;
+	background		: #ffffff;
+	border-top		: 1px solid #ecc6dg;
+	border-bottom	: 1px solid #ecc6dg;
+	border-right	: 1px solid #ecc6dg;
+	border-left		: 1px solid #ecc6dg;
+	font-size		: 100%;
+	margin			: 0px 0px 5px 0px;
+}
+/* pengaturan ukuran iklan dg gambar pada widget */
+.gambariklan {
+	width			: 100%;
+	height			: 150px;
+}
+
+aside{
+	float: left;
+	width: 255px;
+	height: 300px;
+	margin: 10px;
+	border:1px solid black;
+}
+	
+.form-group{
+	margin: 20px;
+}
+
+
+
+/*pengaturan isi*/
+#isi {
+	padding			: 5px; 
+	width			: 70%;
+	height			: auto;
+	background-color: #66ccff;
+	position		: relative;
+	margin-top		: 5px;
+}
+/* pengaturan posting */
+.isiposting{
+	background-color: #99ddff;
+	width			: 98%;
+	height			: 150px;
+	margin-bottom	: 5px;
+	padding			: 5px;
+}
+/*pengaturan gambar yang di halaman depan */
+.gambardepan {
+	float			: left;
+	height			: 100px;
+	width			: 150px;
+	margin-right	: 5px;
+	margin-top		: 3px;
+	padding			: 1px;
+	border			: 1px solid #dddddd;
+}
+
+
+}
+/* pengaturan heading2 "judul" */
+h2 {
+	font-size		: 20px;
+	font-weight		: bold;
+	color			: #ffffff;
+	margin-top		: 4px;
+	margin-bottom	: 3px;
+}
+/* pengaturan anchor atau link yang ada di isiposting */
+.isiposting a {
+	text-decoration	: none;
+}
+.isiposting a:hover{
+	color			: yellow;
+}
+
+
+
+#footer{
+	width				: 100%;
+	height				: 50px;
+	margin-top			: 5px;
+	padding-top			: 30;
+	background-color	: #49494e;
+	color				: white;
+	font-size			: 12pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
